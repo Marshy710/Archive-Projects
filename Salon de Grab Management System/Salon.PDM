@@ -1,0 +1,288 @@
+[Root]
+Most Recent Package=Sales Management Setup
+
+
+[Package|Sales Management Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\compile
+
+[Package|Sales Management Setup Package|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Sales Management Setup Package|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Sales Management Setup Package|Files Found]
+
+[Package|Sales Management Setup Package|Files Released]
+
+[Package|Sales Management Setup Package|Missing Dependency Information]
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\glxpbuttonz.ocx=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSSTDFMT.DLL=
+
+[Package|Sales Management Setup Package|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\comdlg32.ocx=
+
+[Package|Sales Management Setup Package|Files Added]
+
+[Package|Sales Management Setup Package|Files Removed]
+
+[Package|Sales Management Setup Package|Files In Project]
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\Salon De Grab.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\comdlg32.ocx=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\System32\MSDBRPTR.DLL=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\glxpbuttonz.ocx=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Sales Management Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Sales Management Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Sales Management Setup Package|Install Locations]
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\Salon De Grab.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\comdlg32.ocx=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\glxpbuttonz.ocx=$(WinSysPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Sales Management Setup Package|Configure Shared Files]
+Applicable=Yes
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\Salon De Grab.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Sales Management Setup Package|Distribution]
+Type=single
+Size=1.44 MB
+Title=Salon De Grab Sales Management System
+
+[Package|Sales Management Setup Package|IconGroups]
+Group0=Salon De Grab Sales Management System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Sales Management Setup Package|Salon De Grab Sales Management System]
+Icon1="Salon De Grab.exe"
+Title1=Salon De Grab Sales Management System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Sales Management Setup Package|Package]
+PackageFolder=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\compile
+ProjectFolder=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2
+ServerSideCab=
+File1=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\compile\setup.exe
+File2=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\compile\Setup.Lst
+File3=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\compile\Salon De Grab.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Sales Management Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\SETUP
+
+[Package|Sales Management Setup|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Sales Management Setup|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Sales Management Setup|Files Found]
+
+[Package|Sales Management Setup|Files Released]
+
+[Package|Sales Management Setup|Missing Dependency Information]
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\glxpbuttonz.ocx=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSSTDFMT.DLL=
+C:\Windows\System32\glxpbuttonz.ocx=
+
+[Package|Sales Management Setup|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\comdlg32.ocx=
+
+[Package|Sales Management Setup|Files Added]
+
+[Package|Sales Management Setup|Files Removed]
+
+[Package|Sales Management Setup|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\comdlg32.ocx=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\System32\MSDBRPTR.DLL=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\Dynmark\Desktop\Salon_backup2\Salon De Grab.exe=Yes
+C:\Windows\System32\glxpbuttonz.ocx=Yes
+
+[Package|Sales Management Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Sales Management Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Sales Management Setup|Install Locations]
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\Salon De Grab.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\comdlg32.ocx=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\glxpbuttonz.ocx=$(WinSysPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\Dynmark\Desktop\Salon_backup2\Salon De Grab.exe=$(AppPath)
+C:\Windows\System32\glxpbuttonz.ocx=$(WinSysPath)
+
+[Package|Sales Management Setup|Configure Shared Files]
+Applicable=Yes
+D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\Salon_backup2\Salon De Grab.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Users\Dynmark\Desktop\Salon_backup2\Salon De Grab.exe=No
+
+[Package|Sales Management Setup|Distribution]
+Type=single
+Size=1.44 MB
+Title=Salon De Grab Sales Management System
+
+[Package|Sales Management Setup|IconGroups]
+Group0=Salon De Grab Sales Management System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Sales Management Setup|Salon De Grab Sales Management System]
+Icon1="Salon De Grab.exe"
+Title1=Salon De Grab Sales Management System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Sales Management Setup|Package]
+PackageFolder=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\SETUP
+ProjectFolder=C:\Users\Dynmark\Desktop\Salon_backup2
+ServerSideCab=
+File1=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\SETUP\setup.exe
+File2=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\SETUP\Setup.Lst
+File3=D:\AAAAAAA_ACTIVE_SUBJECTS\SOFTWARE ENGINEERING-FINAL NJUD\SETUP\Salon De Grab.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

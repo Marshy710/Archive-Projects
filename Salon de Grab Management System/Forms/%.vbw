@@ -1,0 +1,15 @@
+frmBeautician = -4, -3, 989, 400, C, -1, 0, 975, 633, C
+frmTransactionS = 455, 115, 963, 601, C, 96, 45, 923, 581, C
+frmsearchbox = 75, 75, 971, 479, C, 106, 116, 870, 583, C
+frmTransactionP = 150, 150, 914, 617, C, 125, 125, 889, 591, C
+modMain = 0, 0, 764, 466, C
+frmBeauticianList = 50, 50, 814, 516, C, 25, 25, 789, 491, C
+frmServicesList = 202, 53, 966, 519, C, 92, 41, 856, 507, C
+frmInputServices = 193, 130, 957, 597, C, 50, 50, 814, 596, C
+frmInputProduct = 0, 0, 896, 405, C, 430, 43, 1194, 510, C
+frmMain = 176, 176, 938, 642, C, 150, 150, 914, 617, C
+frmAddService = 125, 125, 929, 592, C, 100, 100, 904, 567, C
+frmSelectT = 175, 175, 979, 642, C, 150, 150, 954, 617, C
+frmProductsList = 50, 50, 854, 517, C, 50, 50, 854, 517, C
+frmAddProduct = 175, 175, 979, 642, C, 75, 75, 879, 542, C
+frmModify = 75, 75, 879, 542, C, 150, 150, 954, 617, C
