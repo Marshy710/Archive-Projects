@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Dynz WiFi Hotspot</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="img/wfi.png" type="image/x-icon">
+<link rel="icon" href="img/wfi.png" type="image/x-icon">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.min2.1.3.js" type="text/javascript"></script>
+<link href='js/manifest.json' rel='manifest'/>
+<link rel="stylesheet" href="css/swiper.min.css">
+<!-- Untuk Chrome & Opera -->
+<meta name="theme-color" content="#0064d3"/>
+<!-- Untuk Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#0064d3"/>
+<!-- Untuk Safari iOS -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#0064d3"/>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24451557-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div class="outerwrapper">
+<div class="cls">
+<div class="nduwur">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">X</span>
+  <strong>Notice:</strong> Experience long range wifi coverage. Buy your voucher at <a href="reseller1.html"><strong>Hazel Residence or Jean Store </strong> </a>and connect to the same wifi hotspot.
+</div>
+</div>
+
+<div class="navbarmini1">
+<img src="img/logoatas.png"/>
+<div class="dropdown">
+<span class="dropbtn">
+<div id="a" class="responsive-menu-icon-line"></div>
+<div id="b" class="responsive-menu-icon-line"></div>
+<div id="c" class="responsive-menu-icon-line"></div>
+</span>
+<div class="dropdown-content">
+<a href="help.html">Help</a>
+<a href="rate.html">Rates</a>
+<a href="contact.html">About</a>
+</div>
+</div>
+</div>
+<div class="rightform"> 
+<div id="jssor_1">
+<div class="sld" data-u="slides">
+<div>
+<img data-u="image" src="img/1.jpg" />
+</div>
+<div>
+<img data-u="image" src="img/2.jpg" />
+</div>
+<div>
+<img data-u="image" src="img/3.jpg" />
+</div>
+</div>
+</div>
+</div>
+<div class="formleft">
+<div class="jem">
+<div class="isileft">
+<!--<p><b style="color: #228B22">Notice: </b>message</p>-->
+<div class="gambartop">
+<h2>surf<span>.</span>nonstop</h2>
+</div>
+$(if chap-id)
+<div  class="tab tab-active" data-id="tab1">
+<form name="sendin" action="$(link-login-only)" method="post">
+<input type="hidden" name="username" />
+<input type="hidden" name="password" />
+<input type="hidden" name="dst" value="$(link-orig)" />
+<input type="hidden" name="popup" value="true" />
+</form>
+<script type="text/javascript" src="/md5.js"></script>
+<script type="text/javascript">
+	<!--
+	    function doLogin() {
+		document.sendin.username.value = document.login.username.value;
+		document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+		document.sendin.submit();
+		return false;
+	    }
+	//-->
+	</script>
+$(endif)
+<div align="center">
+<a href="$(link-login-only)?target=lv&amp;dst=$(link-orig-esc)"></a>
+</div>
+<input id="tab-menu-html" type="radio" name="tab-menu" checked="checked" />
+<input id="tab-menu-css" type="radio" name="tab-menu" />
+<div class="tab-label">
+<label for="tab-menu-html">Voucher</label>
+<label for="tab-menu-css">Member</label>
+</div>
+<div class="tab-content html">
+<div class="isi2">
+<div class="notinpt">
+$(if error)<br />
+<div class="errornotif" >$(error)</div>$(endif)
+<!--<p>Enter the voucher code, then select login</p>-->
+</div>
+<form autocomplete="off" name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif)/>
+<input type="hidden" name="dst" value="$(link-orig)" />
+<input type="hidden" name="popup" value="true" />
+<input name="username" id="username" type="text" value="$(username)" placeholder="Voucher Code" onkeyup="change();"/>
+<input name="password" type="hidden" id="password"/>
+<div class="butonbox"> <!--$(if trial == 'yes')-->
+<a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">TRY IT FREE</a> <!--$(endif)-->
+<input type="submit" value="LOGIN" />
+</div>
+
+</form>
+<br>
+<div class="textslid1">
+<div id="slider">
+<ul class="slides">
+<li class="slide slide1" onclick="window.location='https://qrcodescan.in';">TAP/CLICK ME to OPEN QR SCANNER</li>
+<li class="slide slide4">Check your internet status <a href="status.html">here</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-content css">
+<div class="isi2">
+<div class="notinpt">
+$(if error)<br />
+<div class="errornotif" >$(error)</div>$(endif)
+<!--<p>Member Login</p>-->
+</div>
+<form name="login" action="$(link-login-only)" method="post" $(if chap-id) onSubmit="return doLogin()" $(endif)/>
+<input type="hidden" name="dst" value="$(link-orig)" />
+<input type="hidden" name="popup" value="true" />
+<input name="username" id="" type="text" value="$(username)" placeholder="Username"/>
+<input name="password" type="password" id="nganu" placeholder="Password"/>
+<div class="butonbox">
+<input type="submit" value="LOGIN" /><!--$(if trial == 'yes')-->
+<a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">TRY IT FREE</a><!-- $(endif)-->
+</div>
+
+</form>
+</div>
+</div>
+</div>
+<div class="texslider">
+<div class="item-1">
+<p class="lari1">FLASH PROMO!!!</p>
+<span class="lari2">1 day FREE for every ₱100 worth of voucher</span>
+</div>
+<div class="item-2">
+<p class="lari1">1 day FREE!!!</p>
+<span class="lari2">for every ₱100 total worth of voucher</span>
+ </div>
+<div class="item-3">
+<p class="lari1">Need internet at home?</p>
+<span class="lari2"><a href="rate.html">Contact us now for details</a></span>
+ </div>
+</div>
+</div>
+</div>
+</div>
+<div class="textlari loginlari">
+<marquee scrolldelay="200" onmouseover="this.stop()" onmouseout="this.start()"> 
+Take advantage of internet today! for your online business, online job, research,
+or just by simply socializing online or playing with friends. Internet is already part of our basic necessity now!
+For more information, please contact 09761831676
+</marquee>
+</div>
+</div>
+
+<div class="btmnavbar"> 
+<header class="header">
+<a href="" class="logo"><img src="img/wfi.png"/></a>
+<input class="menu-btn" type="checkbox" id="menu-btn" />
+<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+<ul class="menu">
+<li><a href="login.html"><img src="icon/2.png"/> Home</a></li>
+<li><a href="feature.html"><img src="icon/3.png"/> Feature</a></li>
+<li><a href="rate.html"><img src="icon/4.png"/> Rates</a></li>
+<li><a href="help.html"><img src="icon/5.png"/> Help</a></li>
+<li><a href="contact.html"><img src="icon/6.png"/> About</a></li>
+</ul>
+</header>
+</div>
+<script type="text/javascript">
+  document.login.username.focus();
+</script>
+
+<script type="text/javascript">
+var width = 100;
+var animation_speed = 900;
+var time_val = 5000;
+var current_slide = 1;
+var $slider = $('#slider');
+var $slide_container = $('.slides');
+var $slides = $('.slide');
+var interval;
+$slides.each(function(index){
+  $(this).css('left',(index*100)+'%');
+});
+function startSlider() {
+  interval = setInterval(function() {
+    $slide_container.animate({'left': '-='+(width+'%')}, animation_speed, function() {
+      if (++current_slide === $slides.length) {
+        current_slide = 1;
+        $slide_container.css('left', 0);
+      }
+    });
+  }, time_val);
+}
+startSlider();
+</script>
+<script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Orientation: 2,
+                $NoDrag: true
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 3000);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+		
+		$(document).ready(function(){ 
+    $('.tab-a').click(function(){  
+      $(".tab").removeClass('tab-active');
+      $(".tab[data-id='"+$(this).attr('data-id')+"']").addClass("tab-active");
+      $(".tab-a").removeClass('active-a');
+      $(this).parent().find(".tab-a").addClass('active-a');
+     });
+});
+    </script>
+	<script src="js/jssor.slider.js" type="text/javascript"></script>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+  <!-- #endregion Jssor Slider End -->
+  <!-- Additional Script -->
+  <script type="text/javascript">
+	var input1 = document.getElementById('username');
+	var input2 = document.getElementById('password');
+	var updateInputs = function () {
+	input2.value = input1.value;
+	}
+	if (input1.addEventListener) {
+	input1.addEventListener('keyup', function () {
+	updateInputs();
+	});
+	} else if (input1.attachEvent) { // support IE
+	input1.attachEvent('onkeyup', function () {
+	updateInputs();
+	});
+	}
+	</script>
+</body>
+</html>
